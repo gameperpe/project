@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Athiti','Open Sans Condensed';
+   
+}
+.item_header a {
+    text-decoration: none;
+    color: black;
+}
+.item_header_main a {
+    text-decoration: none;
+    color: black;
+}
+.item_header_main a:hover {
+    border-bottom: 2px solid#FFCA33;
+    color: darkorange;
+}
+.item_header a:hover {
+    border-bottom: 2px solid#FFCA33;
+    color: darkorange;
+}
+/* ส่วนของโชว์ข้อมูลผู้ใช้ */
+.card_main{
+   height: 20rem;
+   background-color: #e7717d;
+}
+.card_img img{
+    margin-left: 30%;
+}
+.card_body{
+    font-size: 50px;
+    
+}
+.card_static{
+    margin-top: -5%;
+}
+.card_static_body{
+    height: 29rem;
+    background-color: #ee8993;
+    border-radius: 10px;
+}
+.cut-text{
+    text-decoration: none;
+    text-overflow: ellipsis; /* เพิ่ม ... จุดจุดจุดท้ายสุด */ 
+    display: block; overflow: hidden; 
+    white-space: nowrap; 
+    width: 255px; /* กำหนดความกว้าง */ 
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-top: 2%;
+}
+/* css ส่วนแสดงสินค้า */
+div.img-resize img {
+    max-width:20rem;
+    max-height:20rem;
+    width: auto;
+    height: auto;
+    
+}
+div.img-resize {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    text-align: center;
+ 
+}
+div.img-resize-category{
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+    text-align: center;
+}
+.search {
+    border: 0;
+    background-color: darkorange;
+    text-decoration: none;
+}
+
+
+
+

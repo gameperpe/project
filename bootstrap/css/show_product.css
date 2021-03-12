@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Athiti','Open Sans Condensed';
+
+}
+.item_header a {
+    text-decoration: none;
+    color: black;
+}
+.item_header_main a {
+    text-decoration: none;
+    color: black;
+}
+.item_header_main a:hover {
+    border-bottom: 2px solid#FFCA33;
+    color: darkorange;
+}
+.item_header a:hover {
+    border-bottom: 2px solid#FFCA33;
+    color: darkorange;
+
+}
+.card_main{
+    height: 8rem;
+    background-color: #e7717d;
+}
+.search {
+    border: 0;
+    background-color: darkorange;
+    text-decoration: none;
+}
+/*  main โชว์รูปสินค้า แสดงรายละเอียดการจัดส่ง  */
+.flex_header{
+    margin-top: 3%;
+}
+.flex_main{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.shipment a{
+    text-decoration: none;
+    color: black;
+}
+div.img-resize img {
+    max-width:18rem;
+    max-height:18rem;
+    width: auto;
+    height: auto;
+    
+    
+}
+div.img-resize {
+    width: 18rem;
+    height: 18rem;
+    overflow: hidden;
+    text-align: center;
+ 
+}
+.shipment a:hover {
+    border-bottom: 2px solid#FFCA33;
+    color: darkorange;
+}
+/* main ที่สอง */
+.card_main2{
+    height: 7.3rem;
+    background-color: #e7717d;
+    margin-top: 2%;
+    border-radius: 5px;
+ }
+ .main_3{
+    margin-top: 2%;
+    background-color: #f8949ee8;
+ }
+ .footer{
+    margin-top: 2%;
+ }
